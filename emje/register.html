@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <style>
+        /* BODY STYLES */
+        body {
+            background-image: url("bgpink.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+
+        /* NAVIGATION BAR */
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #8E24AA;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        nav li {
+            position: relative;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 18px 24px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav li a:hover {
+            background-color: #6A1B9A;
+            transform: translateY(-2px);
+        }
+
+        /* ORDER FORM SECTION */
+        .order-section {
+            max-width: 450px;
+            margin: 80px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 30px 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            color: #333;
+        }
+
+        .order-section h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 2rem;
+            color: #8E24AA;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 15px;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        input, select {
+            padding: 12px 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border 0.3s ease;
+        }
+
+        input:focus {
+            border-color: #8E24AA;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #8E24AA;
+            color: white;
+            cursor: pointer;
+            margin-top: 25px;
+            font-weight: bold;
+            border: none;
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #6A1B9A;
+            transform: scale(1.02);
+        }
+
+        /* RESPONSIVE DESIGN */
+        @media (max-width: 500px) {
+            .order-section {
+                margin: 40px 20px;
+                padding: 20px;
+            }
+
+            nav li a {
+                padding: 14px 18px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="etongani.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="galery1.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="register.html">Order</a></li>
+        </ul>
+    </nav>
+
+    <div class="order-section">
+        <h2>Place Your Order</h2>
+        <form action="#" method="post">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+            <label for="contact">Contact Number</label>
+            <input type="text" id="contact" name="contact" placeholder="Enter your contact number" required>
+
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" placeholder="Enter your address" required>
+
+            <input type="submit" value="Place Order">
+        </form>
+    </div>
+</body>
+</html>

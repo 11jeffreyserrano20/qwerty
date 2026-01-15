@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            background-image: url("bgpink.jpg");
+            height: 100vh;
+            background-size: cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+         /* NAVIGATION BAR */
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #6A1B9A;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        li {
+            position: relative;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 18px 24px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        li a:hover {
+            background-color: #126C66;
+            transform: translateY(-2px);
+        }
+        /* New CSS for center-aligned grid gallery */
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .gallery {
+            text-align: center;
+            position: relative;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(76, 9, 116, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Shake Animation on hover */
+        .gallery img:hover {
+            animation: shake 0.5s ease-in-out;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Description styling */
+        .description {
+            color: rgb(15, 1, 1);
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        /* Shake Animation */
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            50% { transform: translateX(10px); }
+            75% { transform: translateX(-10px); }
+            100% { transform: translateX(0); }
+        }
+
+        /* Action buttons styling */
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            gap: 10px;
+        }
+
+        .action-buttons button {
+            background-color: rgba(255, 255, 255, 0.8);  /* Semi-transparent background */
+            border: 2px solid rgba(0, 0, 0, 0.2); /* subtle border */
+            padding: 6px 10px;  /* Smaller padding for more compact buttons */
+            cursor: pointer;
+            font-size: 14px;  /* Smaller font size */
+            border-radius: 20px; /* More rounded button corners */
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* subtle shadow */
+        }
+
+        /* Heart button default state (no fill color) */
+        .heart-button {
+            color: #ccc;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        /* Heart button active state (red) */
+        .heart-button.liked {
+            color: red;
+            transform: scale(1.2);  /* Slightly bigger on click */
+        }
+
+        .action-buttons button:hover {
+            background-color: rgba(255, 255, 255, 1); /* Fully white background on hover */
+        }
+
+        .action-buttons span {
+            font-size: 12px;  /* Smaller icon font size */
+        }
+
+        /* Comment Section Styling */
+        .comment-section {
+            margin-top: 10px;
+            display: none;
+            text-align: center;
+        }
+
+        .comment-input {
+            width: 80%;
+            padding: 8px;
+            border-radius: 5px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .submit-comment {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit-comment:hover {
+            background-color: #45a049;
+        }
+
+        .comments-list {
+            margin-top: 10px;
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .comments-list li {
+            background-color: #f1f1f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="etongani.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="galery1.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="register.html">Orders</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <!-- Gallery Container with grid layout -->
+        <div class="gallery-container">
+            <div class="gallery">
+                <a target="_blank" href="choco.jpg">
+                    <img src="choco.jpg" alt="Choco">
+                    <div class="description">Choco</div>
+                </a>
+                <!-- Action buttons -->
+                <div class="action-buttons">
+                    <button class="heart-button" onclick="toggleLike(this)">
+                        <span>❤️</span> Like
+                    </button>
+                    <button onclick="showCommentSection(this)"><span>💬</span> Comment</button>
+                    <button onclick="alert('Shared!')"><span>🔗</span> Share</button>
+                </div>
+                <!-- Comment Section -->
+                <div class="comment-section">
+                    <textarea class="comment-input" placeholder="Write a comment..."></textarea>
+                    <button class="submit-comment" onclick="submitComment(this)">Submit Comment</button>
+                    <ul class="comments-list"></ul>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="coffee.jpg">
+                    <img src="coffee.jpg" alt="Coffee">
+                    <div class="description">Coffee</div>
+                </a>
+                <!-- Action buttons -->
+                <div class="action-buttons">
+                    <button class="heart-button" onclick="toggleLike(this)">
+                        <span>❤️</span> Like
+                    </button>
+                    <button onclick="showCommentSection(this)"><span>💬</span> Comment</button>
+                    <button onclick="alert('Shared!')"><span>🔗</span> Share</button>
+                </div>
+                <!-- Comment Section -->
+                <div class="comment-section">
+                    <textarea class="comment-input" placeholder="Write a comment..."></textarea>
+                    <button class="submit-comment" onclick="submitComment(this)">Submit Comment</button>
+                    <ul class="comments-list"></ul>
+                </div>
+            </div>
+
+            <!-- Repeat for other gallery items as needed -->
+        </div>
+    </section>
+
+    <script>
+        function toggleLike(button) {
+            button.classList.toggle('liked');
+        }
+
+        function showCommentSection(button) {
+            const commentSection = button.parentElement.nextElementSibling;
+            commentSection.style.display = commentSection.style.display === 'block' ? 'none' : 'block';
+        }
+
+        function submitComment(button) {
+            const commentSection = button.closest('.comment-section');
+            const commentInput = commentSection.querySelector('.comment-input');
+            const commentList = commentSection.querySelector('.comments-list');
+            
+            if (commentInput.value.trim()) {
+                const newComment = document.createElement('li');
+                newComment.textContent = commentInput.value.trim();
+                commentList.appendChild(newComment);
+                commentInput.value = '';  // Clear the input field
+            } else {
+                alert('Please enter a comment!');
+            }
+        }
+    </script>
+
+</body>
+</html>
+

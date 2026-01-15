@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation with Contact Info</title>
+    <style>
+        body {
+            background-image: url("bgpink.jpg");
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* NAVIGATION BAR */
+        /* NAVIGATION BAR */
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #6A1B9A;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        li {
+            position: relative;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 18px 24px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        li a:hover {
+            background-color: #126C66;
+            transform: translateY(-2px);
+        }
+        
+
+        /* DROPDOWN MENU */
+        ul li ul.dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            min-width: 150px;
+        }
+
+        ul li ul.dropdown li {
+            display: block;
+        }
+
+        ul li:hover ul.dropdown {
+            display: block;
+        }
+
+        /* CONTACT SECTION */
+        .contact-section {
+            max-width: 600px;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        .contact-section h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        .contact-info strong {
+            display: inline-block;
+            width: 80px;
+        }
+
+        .contact-section a {
+            color: #4dd2ff;
+            text-decoration: none;
+        }
+
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="etongani.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="galery1.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="register.html">Orders</a></li>
+        </ul>
+    </nav>
+
+    <!-- contact mo gago -->
+    <div class="contact-section">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="">shakeyourboba@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="#">+63 956 356 2513</a></p>
+            <p><strong>Address:</strong> Purok 4 Salvador, Santiago City, Philippines</p>
+            <p><strong>Facebook:</strong> <a href="https://facebook.com/yourpage" target="_blank">Shakeyourboba.com</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
