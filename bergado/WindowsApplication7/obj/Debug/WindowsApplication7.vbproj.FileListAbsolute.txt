@@ -1,0 +1,72 @@
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\bin\Debug\WindowsApplication7.exe.config
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\bin\Debug\WindowsApplication7.exe
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\bin\Debug\WindowsApplication7.pdb
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\bin\Debug\WindowsApplication7.xml
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\bin\Debug\MySql.Data.dll
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\bin\Debug\MySql.Data.xml
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.vbprojResolveAssemblyReference.cache
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.Form1.resources
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.Resources.resources
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.vbproj.GenerateResource.Cache
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.exe
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.xml
+c:\users\pc 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.pdb
+C:\Users\PC 6\Documents\Visual Studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.Form2.resources
+C:\Users\PC 6\Documents\Visual Studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.Form3.resources
+C:\Users\PC 6\documents\visual studio 2015\Projects\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.Form4.resources
+D:\WindowsApplication7\WindowsApplication7\bin\Debug\WindowsApplication7.exe.config
+D:\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.exe
+D:\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.xml
+D:\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.pdb
+D:\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.vbprojResolveAssemblyReference.cache
+D:\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.Form1.resources
+D:\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.Form2.resources
+D:\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.Form3.resources
+D:\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.Form4.resources
+D:\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.Resources.resources
+D:\WindowsApplication7\WindowsApplication7\obj\Debug\WindowsApplication7.vbproj.GenerateResource.Cache
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\bin\Debug\WindowsApplication7.exe.config
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\obj\Debug\WindowsApplication7.exe
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\obj\Debug\WindowsApplication7.xml
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\obj\Debug\WindowsApplication7.pdb
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\obj\Debug\WindowsApplication7.vbprojResolveAssemblyReference.cache
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\obj\Debug\WindowsApplication7.Form1.resources
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\obj\Debug\WindowsApplication7.Form2.resources
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\obj\Debug\WindowsApplication7.Form3.resources
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\obj\Debug\WindowsApplication7.Resources.resources
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\obj\Debug\WindowsApplication7.vbproj.GenerateResource.Cache
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\bin\Debug\WindowsApplication7.exe
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\bin\Debug\WindowsApplication7.pdb
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\bin\Debug\WindowsApplication7.xml
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\bin\Debug\MySql.Data.dll
+C:\Users\PC 6\Desktop\reijan\WindowsApplication7\bin\Debug\MySql.Data.xml
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\bin\Debug\WindowsApplication7.exe.config
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\obj\Debug\WindowsApplication7.exe
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\obj\Debug\WindowsApplication7.xml
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\obj\Debug\WindowsApplication7.pdb
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\bin\Debug\WindowsApplication7.exe
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\bin\Debug\WindowsApplication7.pdb
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\bin\Debug\WindowsApplication7.xml
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\bin\Debug\MySql.Data.dll
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\bin\Debug\MySql.Data.xml
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\obj\Debug\WindowsApplication7.vbprojResolveAssemblyReference.cache
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\obj\Debug\WindowsApplication7.Form1.resources
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\obj\Debug\WindowsApplication7.Form2.resources
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\obj\Debug\WindowsApplication7.Resources.resources
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\obj\Debug\WindowsApplication7.Form3.resources
+C:\Users\PC 6\Desktop\sola\WindowsApplication7\obj\Debug\WindowsApplication7.vbproj.GenerateResource.Cache
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\bin\Debug\WindowsApplication7.exe.config
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\obj\Debug\WindowsApplication7.exe
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\obj\Debug\WindowsApplication7.xml
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\obj\Debug\WindowsApplication7.pdb
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\bin\Debug\WindowsApplication7.exe
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\bin\Debug\WindowsApplication7.pdb
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\bin\Debug\WindowsApplication7.xml
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\bin\Debug\MySql.Data.dll
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\bin\Debug\MySql.Data.xml
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\obj\Debug\WindowsApplication7.vbprojResolveAssemblyReference.cache
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\obj\Debug\WindowsApplication7.Form1.resources
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\obj\Debug\WindowsApplication7.Form2.resources
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\obj\Debug\WindowsApplication7.Resources.resources
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\obj\Debug\WindowsApplication7.Form3.resources
+C:\Users\PC 6\Desktop\bergado\WindowsApplication7\obj\Debug\WindowsApplication7.vbproj.GenerateResource.Cache
